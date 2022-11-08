@@ -7,6 +7,7 @@ g <- ggplot(
   geom_smooth(method ="lm", colour="darkgrey")+
   geom_text(
     aes(x = 2020, y = 82.8, label = "only GitHub"),
+    size= 3,
     nudge_x = 0.2 ,
     nudge_y = -6) +
   labs(
